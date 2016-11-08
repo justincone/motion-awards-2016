@@ -3,7 +3,7 @@ body {
   background-color: #f5efe9;
 }
 
-h1, h2, h3 {
+.content-right h1, .content-right h2, .content-right h3 {
   font-family: 'baskerville-urw', Times, serif !important;
   font-weight: 500;
   letter-spacing: -0.03em;
