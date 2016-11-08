@@ -5,6 +5,8 @@ body {
 
 h1, h2, h3 {
   font-family: 'baskerville-urw', Times, serif !important;
+  font-weight: 500;
+  letter-spacing: -0.03em;
 }
 
 #warp, * {
