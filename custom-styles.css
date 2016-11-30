@@ -1,7 +1,33 @@
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #f5efe9;
+  font-family: 'acumin-pro', Helvetica, Arial, sans-serif;
+  background-color: #c0b2ad;
 }
+
+a, p a, a:visited, p a:visited {
+	color: #c52127;
+}
+
+#warp {
+	margin: 0 auto;
+}
+
+/* NAVIGATION */
+.main-navigation .nav-menu {
+	background-color: #F5EFE9;
+	border-top: 1px solid #ffffff;
+}
+
+.main-navigation li ul li a {
+	background-color: #F5EFE9;
+}
+
+.main-navigation li ul li a:hover, .main-navigation li ul li a:focus {
+	background-color: #c52127;
+	color: #ffffff;
+}
+
+/* CONTENT */
+
 
 .content-right h1, .content-right h2, .content-right h3 {
   font-family: 'baskerville-urw', Times, serif !important;
