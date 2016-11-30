@@ -4,7 +4,7 @@ body {
 }
 
 a, p a, a:visited, p a:visited {
-	color: #c52127;
+	color: #f04c36;
 }
 
 #warp {
@@ -22,7 +22,7 @@ a, p a, a:visited, p a:visited {
 }
 
 .main-navigation li ul li a:hover, .main-navigation li ul li a:focus {
-	background-color: #c52127;
+	background-color: #f04c36;
 	color: #ffffff;
 }
 
