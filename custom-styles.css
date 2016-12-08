@@ -26,6 +26,11 @@ a, p a, a:visited, p a:visited {
 	color: #ffffff;
 }
 
+ul.breadcrumb li a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
 /* CONTENT */
 
 
