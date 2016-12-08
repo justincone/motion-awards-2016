@@ -38,6 +38,11 @@ ul.breadcrumb li a {
   font-family: 'baskerville-urw', Times, serif !important;
   font-weight: 500;
   letter-spacing: -0.03em;
+	
+}
+
+.content-right h3 {
+	font-size: 2em;
 }
 
 #warp, * {
