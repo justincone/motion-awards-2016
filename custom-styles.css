@@ -38,3 +38,6 @@ a, p a, a:visited, p a:visited {
 #warp, * {
   box-shadow: none;
 }
+
+
+.site-info {display: none;}
