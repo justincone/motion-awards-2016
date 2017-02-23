@@ -110,8 +110,9 @@ ul.breadcrumb {
 	color: #505050;
 }
 
-.main_content .gallery_list ul li {
+.main_content .gallery_list ul  {
 	border: none;
+	display: none;
 }
 
 .results_list .gallery_col .gallery_list {
@@ -158,10 +159,10 @@ a.btn_vote {
 	display: block;
 	visibility: visible;
 	width: 100%;
-	margin: 30px auto 20px auto !important;
+	margin: 0 auto 20px auto !important;
 	padding: 10px;
 	border: none;
-	border-radius: 0;
+	border-radius: 3px;
 	background-image: none;
 	background-color: #69bd2b;
 
