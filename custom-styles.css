@@ -127,6 +127,10 @@ ul.breadcrumb {
 	background-position: 0px 13px;
 }
 
+.category_selector {
+	margin-top: 0;
+}
+
 /* Buttons */
 a.btn_view_entry {
 	visibility: hidden;
