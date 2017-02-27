@@ -108,6 +108,8 @@ ul.breadcrumb {
 
 .main_content .gallery_desc h3 a {
 	color: #505050;
+	pointer-events: none;
+    cursor: default;
 }
 
 .main_content .gallery_list ul  {
@@ -165,7 +167,8 @@ a.btn_vote {
 	border-radius: 3px;
 	background-image: none;
 	background-color: #69bd2b;
-
+	-webkit-transition: background-color 0.5s;
+  	transition: background-color 0.5s;
 }
 
 a.btn_vote:hover {
