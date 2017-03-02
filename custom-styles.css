@@ -206,6 +206,7 @@ a.btn_vote, a.btn_view_custom {
 	background-color: #69bd2b;
 	-webkit-transition: background-color 0.5s;
   	transition: background-color 0.5s;
+  	text-shadow: none !important;
 }
 
 a.btn_view_custom {
