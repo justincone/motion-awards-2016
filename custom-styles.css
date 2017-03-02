@@ -123,6 +123,11 @@ ul.breadcrumb {
 	width: 49%;
 }
 
+.gallery_list_custom {
+	margin-top: 14px;
+	width: 100% !important;
+}
+
 .search_filter ul li .head {
 	padding: 8px 10px 8px 12px;
 }
@@ -141,6 +146,27 @@ ul.breadcrumb {
 
 .info-block {
 	border-color: #f04c36 #ededed #ededed;
+}
+
+/* Judging Gallery */
+.judgingGallery_scoreBox {
+	border-radius: 3px;
+	background-color: white;
+	border: 1px solid #ccc;
+}
+
+.totalScore_label {
+	background-color: #cccccc;
+	color: #eee !important;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding: 4px;
+}
+
+.totalScore_text, .totalScore_text span {
+	font-size: 22px !important;
+	font-weight: normal;
+	padding: 0;
 }
 
 /* Buttons */
@@ -168,7 +194,7 @@ a.btn_view_entry:after {
 }
 */
 
-a.btn_vote {
+a.btn_vote, a.btn_view_custom {
 	display: block;
 	visibility: visible;
 	width: 100%;
@@ -182,6 +208,16 @@ a.btn_vote {
   	transition: background-color 0.5s;
 }
 
+a.btn_view_custom {
+	background-color: #e2cb36;
+	color: #ffffff;
+	margin-bottom: 0 !important;
+}
+
+a.btn_view_custom:hover {
+	background-color: #bdaa2d;
+}
+
 a.btn_vote:hover {
 	background-color: #5ba525;
 }
@@ -189,5 +225,6 @@ a.btn_vote:hover {
 a.btn_vote:visited {
 	color: #ffffff;
 }
+
 
 
