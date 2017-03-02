@@ -16,8 +16,11 @@ $( document ).ready(function() {
 	$(".gallery_list").addClass("gallery_list_custom");
 	$(".totalScore_label").text("Status");
 
-	var $heading = $('.gallery_desc h3 a'),
+	/* Format title of each entry */
+	$('.gallery_desc h3 a').each(function(){
+	var $heading = $(this),
 	    $contents = $heading.contents(),
 	    index = $contents.index($heading.children('br').first());
 		$contents.slice(0, index).wrapAll('<div style="font-size: 18px; margin-bottom: 10px; font-weight: bold;">');
+	});
 });
