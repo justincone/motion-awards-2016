@@ -61,6 +61,7 @@ ul.breadcrumb {
 .site-info {display: none;}
 
 /* PUBLIC GALLERY */
+
 .main_content {
 	border: none;
 }
@@ -130,14 +131,24 @@ ul.breadcrumb {
 	background-position: 0px 13px;
 }
 
+.search_filter_content label {
+	color: #505050;
+}
+
 .category_selector {
 	margin-top: 0 !important;
 }
 
+.info-block {
+	border-color: #f04c36 #ededed #ededed;
+}
+
 /* Buttons */
 a.btn_view_entry {
+	/*
 	visibility: hidden;
 	display: none;
+	*/
 }
 /*
 a.btn_view_entry:after {
