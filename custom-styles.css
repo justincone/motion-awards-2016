@@ -178,19 +178,8 @@ ul.breadcrumb {
 
 /* JUDING DETAIL PAGE */
 
-.wbox {
-	border: none;
-	border-right: none;
-	border-width: 0;
-}
+/* Check the Source tab of the Description field for page-specific CSS */
 
-.gallery_details .videoContainer {
-  margin: 0;
-}
-
-.mejs-container .mejs-controls  div {
-  width: 24px;
-}
 
 /* Buttons */
 a.btn_view_entry {
