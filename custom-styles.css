@@ -65,6 +65,14 @@ ul.breadcrumb {
 
 .site-info {display: none;}
 
+/* JUDING PAGES */
+
+.wbox {
+	border: none;
+	border-right: none;
+	border-width: 0;
+}
+
 /* PUBLIC GALLERY */
 
 .main_content {
