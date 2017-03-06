@@ -65,13 +65,7 @@ ul.breadcrumb {
 
 .site-info {display: none;}
 
-/* JUDING PAGES */
 
-.wbox {
-	border: none;
-	border-right: none;
-	border-width: 0;
-}
 
 /* PUBLIC GALLERY */
 
@@ -180,6 +174,22 @@ ul.breadcrumb {
 	font-size: 22px !important;
 	font-weight: normal;
 	padding: 0;
+}
+
+/* JUDING DETAIL PAGE */
+
+.wbox {
+	border: none;
+	border-right: none;
+	border-width: 0;
+}
+
+.gallery_details .videoContainer {
+  margin: 0;
+}
+
+.mejs-container .mejs-controls  div {
+  width: 24px;
 }
 
 /* Buttons */
