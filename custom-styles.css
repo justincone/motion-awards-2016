@@ -80,6 +80,10 @@ ul.breadcrumb {
 	padding: 1em 2em;
 }
 
+.details {
+	text-transform: none;
+}
+
 
 
 /* PUBLIC GALLERY */
