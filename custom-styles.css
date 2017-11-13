@@ -66,6 +66,21 @@ ul.breadcrumb {
 .site-info {display: none;}
 
 
+.formBuilder fieldset label.name, .formBuilder fieldset section.separator div.view {
+    font-family: 'baskerville-urw', Times, serif !important;
+    width: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.02em !important;
+    /* border-top: 1px solid #ccc; */
+    margin-top: 1em;
+}
+
+.view {
+	padding: 1em 2em;
+}
+
+
 
 /* PUBLIC GALLERY */
 
