@@ -66,7 +66,7 @@ ul.breadcrumb {
 .site-info {display: none;}
 
 
-.formBuilder fieldset label.name, .formBuilder fieldset section.separator div.view {
+.formBuilder fieldset label.name, .formBuilder fieldset section.separator div.view, .formBuilder fieldset section.separator label.name, h4 {
     font-family: 'baskerville-urw', Times, serif !important;
     width: 100%;
     font-weight: 500;
